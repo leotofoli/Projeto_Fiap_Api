@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const gerarToken = require("../middleware/gerarToken");
 const verificaToken = require("../middleware/verificarToken");
-const Usuario = require("../data/conexao");
+const Usuario = require("../data/usuario");
 
 router.get("/", (req, res) => {
   Usuario.find((erro, dados) => {

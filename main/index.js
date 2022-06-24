@@ -11,4 +11,8 @@ const rotaUsuario = require("../routes/usuario");
 
 app.use("/api/usuario", rotaUsuario);
 
+const rotaFinanca = require("../routes/financa");
+
+app.use("/api/financa", rotaFinanca)
+
 app.listen(5000, () => console.log(`Servidor on-line`));
