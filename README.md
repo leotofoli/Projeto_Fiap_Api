@@ -1,33 +1,37 @@
 Rotas
 
 Usuario
-GET - api/usuario/
-POST - api/usuario/login
-PODT - api/usuario/cadastro
-PUT - api/usuario/atualizar/:id - preicsa de autentição
-DELETE - api/usuario/aparagr/:id - preicsa de autentição
+
+GET - api/usuario/<br>
+POST - api/usuario/login<br>
+PODT - api/usuario/cadastro<br>
+PUT - api/usuario/atualizar/:id - preicsa de autentição<br>
+DELETE - api/usuario/aparagr/:id - preicsa de autentição<br>
 
 Finanças
 
-GET - api/financa/
-POST - api/usuario/cadastro - preicsa de autentição
-PUT - api/usuario/atualizar/:id - preicsa de autentição
-DELETE - api/usuario/aparagr/:id - preicsa de autentição
+GET - api/financa/<br>
+POST - api/usuario/cadastro - preicsa de autentição<br>
+PUT - api/usuario/atualizar/:id - preicsa de autentição<br>
+DELETE - api/usuario/aparagr/:id - preicsa de autentição<br>
 
 MODELO JSON
 
 USUARIO
 
 {    
+
     "nomeusuario": String,
     "email": String,
     "senha": String,
     "nomecompleto": String,
-    "telefone": String
+    "telefone": String 
 }
 
 Finanças
+
 {
+
     "nome_banco": String,
     "tipo_conta": String,
     "nome_titula": String,
